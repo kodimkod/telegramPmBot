@@ -1,0 +1,26 @@
+{
+	"name": "telegram/telegrampmbot",
+	"description": "Bot for Telegram",
+	"authors": [
+		{
+			"name": "Felix"
+		}
+	],
+	"autoload": {
+		"psr-4": {
+			"TelegramPmBot\\": ["classes/"]
+		}
+	},
+	"repositories": [
+		  {
+      "type": "vcs",
+      "url": "https://github.com/kodimkod/telegramBot.git"
+    }
+	],
+	"require": {
+	    "telegram/telegrambot": "dev-master"	
+	},
+	"require-dev": {
+		"phpunit/phpunit": "dev-master"
+	}
+}
