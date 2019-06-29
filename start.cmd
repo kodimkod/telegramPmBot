@@ -1,5 +1,5 @@
 :loop
-@echo RUNNING
+@echo RUNNING PM
 @c:\php\php index.php
 @REM timeout 1
 @REM set /a loopcount=loopcount-1
